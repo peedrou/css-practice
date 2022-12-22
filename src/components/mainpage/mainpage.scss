@@ -43,6 +43,12 @@
         white-space: nowrap;
         padding: 10px;
         cursor: pointer;
+        transition: 0.5s ease;
+
+        &:hover {
+          background: #355d4b;
+          color: white;
+        }
       }
     }
   }
@@ -283,5 +289,6 @@
   }
   .second-section-main-div.second-section-main-div {
     flex-direction: column;
+    gap: 10vw;
   }
 }
