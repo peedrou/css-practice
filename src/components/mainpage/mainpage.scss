@@ -1,0 +1,257 @@
+.super-div {
+  display: flex;
+  flex-direction: column;
+  .navbar-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 32.5vw;
+    max-width: 95vw;
+    padding: 20px;
+    border-bottom: 0.2px solid #355d4b;
+    .navigation-headings {
+      display: flex;
+      gap: 60px;
+      color: #355d4b;
+      white-space: nowrap;
+      .navbar-h3 {
+        cursor: pointer;
+        font-size: 16px;
+      }
+    }
+    .navbar-search {
+      display: flex;
+      gap: 10px;
+      .search-icon {
+        object-fit: contain;
+        width: 30px;
+        cursor: pointer;
+      }
+      .get-the-app {
+        border-radius: 50px;
+        border: 2px solid #355d4b;
+        color: #355d4b;
+        font-weight: 800;
+        background: transparent;
+        width: 150px;
+        white-space: nowrap;
+        padding: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+  .first-section-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20vw;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    .first-section-info-div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .info-h2 {
+        color: #17402b;
+        font-size: 16px;
+      }
+      .info-h1 {
+        text-align: justify;
+        color: #17402b;
+        font-size: 60px;
+      }
+      .access-price-div {
+        margin-top: 19.92px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        .get-access-button {
+          background: transparent;
+          background-color: #17402b;
+          border: 1px solid #17402b;
+          border-radius: 50px;
+          font-weight: 700;
+          padding: 20px;
+          width: 170px;
+          color: white;
+          cursor: pointer;
+        }
+        .price-h2 {
+          color: #17402b;
+          font-size: 30px;
+        }
+        .price-h5 {
+          color: #17402b;
+          border-left: 1px solid #17402b;
+          text-align: justify;
+          padding-left: 10px;
+        }
+      }
+    }
+    .first-section-images-div {
+      display: flex;
+      align-items: center;
+      .figure-image {
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+      }
+      .grass-arrow-div {
+        position: relative;
+        .grass-image {
+          border-radius: 0 12rem 12rem 0;
+          width: 200px;
+          height: 400px;
+          object-fit: cover;
+        }
+        .arrow-image {
+          position: absolute;
+          object-fit: contain;
+          width: 50px;
+          left: 20%;
+          top: 40%;
+        }
+      }
+      .final-circle {
+        background-color: #6fd460;
+        border-radius: 0 140rem 140rem 0;
+        width: 150px;
+        height: 300px;
+      }
+    }
+  }
+  .second-section-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30vw;
+    padding-bottom: 100px;
+    .add-plant-widgets-div {
+      display: flex;
+      .widget1-div {
+        position: relative;
+        width: 200px;
+        height: 230px;
+        border-radius: 10px;
+        background-color: white;
+        .widget1 {
+          position: absolute;
+          width: 100px;
+          height: 130px;
+          object-fit: contain;
+          right: 23.5%;
+          top: 30%;
+        }
+        .icon1-heading-div {
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          padding-right: 30px;
+          padding-top: 10px;
+          display: flex;
+          .widget1-icon {
+            width: 30px;
+            height: 30px;
+          }
+          .widget1-heading {
+            color: #008000;
+          }
+        }
+      }
+      .widget2-div {
+        position: relative;
+        max-height: 230px;
+        margin-top: 140px;
+        margin-left: -30px;
+        .widget2 {
+          width: 200px;
+          height: 230px;
+          object-fit: cover;
+          border-radius: 10px;
+        }
+        .icon2-heading-div {
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          padding-right: 30px;
+          padding-top: 10px;
+          display: flex;
+          .widget2-heading {
+            position: absolute;
+            bottom: 70%;
+            left: 30%;
+            color: white;
+            cursor: pointer;
+          }
+          .widget2-icon {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            bottom: 70%;
+            left: 10%;
+            top: 10%;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .other-info-div {
+      .plant-metrics-div {
+        display: flex;
+        text-align: justify;
+        gap: 150px;
+        border-bottom: 1px solid #17402b;
+        .plant-metrics-h1 {
+          text-align: justify;
+          height: fit-content;
+        }
+        .fifteen-plus {
+          font-size: 70px;
+          margin-top: 21.4px;
+          margin-bottom: 21.4px;
+          .bold {
+            color: #6fd460;
+          }
+        }
+      }
+      .plant-community-div {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        .plant-community-images-div {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          .spheres-wrapper {
+            position: relative;
+            display: flex;
+            .sphere1 {
+              background-color: #17402b;
+              border-radius: 50%;
+              width: 50px;
+              height: 50px;
+              margin-right: 20px;
+            }
+            .sphere2 {
+              position: absolute;
+              border-radius: 50%;
+              object-fit: cover;
+              width: 50px;
+              height: 50px;
+              left: 35%;
+            }
+          }
+        }
+        .plant-community-heading {
+          margin-left: 10px;
+        }
+        .app-description-p {
+          text-align: justify;
+        }
+      }
+    }
+  }
+}
