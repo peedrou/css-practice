@@ -1,4 +1,5 @@
 import React from "react";
+import LeafLogo from "../../images/leaflogo.png";
 import SearchIcon from "../../images/search-icon.png";
 import Figure1 from "../../images/main-figure.jpg";
 import Figure2 from "../../images/second-figure.jpg";
@@ -14,7 +15,7 @@ function Mainpage() {
   return (
     <div className="super-div">
       <div className="navbar-main-div">
-        <img alt="logo" />
+        <img alt="logo" src={LeafLogo} className="leaf-logo" />
         <div className="navigation-headings">
           <h3 className="navbar-h3">Plants</h3>
           <h3 className="navbar-h3">Our Blog</h3>

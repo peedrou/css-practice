@@ -6,10 +6,15 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    gap: 32.5vw;
+    gap: 25vw;
     max-width: 95vw;
     padding: 20px;
     border-bottom: 0.2px solid #355d4b;
+    .leaf-logo {
+      width: 70px;
+      height: 70px;
+      cursor: pointer;
+    }
     .navigation-headings {
       display: flex;
       gap: 60px;
@@ -253,5 +258,30 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar-main-div.navbar-main-div {
+    flex-direction: column;
+    gap: 50px;
+    border-bottom: transparent;
+    .navigation-headings.navigation-headings {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .navbar-search.navbar-search {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 35px;
+    }
+  }
+  .first-section-main-div.first-section-main-div {
+    flex-direction: column;
+    gap: 10vw;
+  }
+  .second-section-main-div.second-section-main-div {
+    flex-direction: column;
   }
 }
